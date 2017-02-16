@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elizabeth#Login</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <style> 
+        h1 {
+            text-align: center;
+            color: white;
+           }
+
+        body {
+              background: url('https://images.unsplash.com/photo-1475275166152-f1e8005f9854?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=d01676fe9144f21d58bc381d4c8fd55e');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+        .btn {
+              border-radius: 5px;
+              background: black;
+              color: #985986;
+              width: 100%;
+              font-size: 18px;
+            }
+
+     .container {
+                  width: 500px;
+                  height: 300px;
+                  text-align: center;
+                  background-color: rgba(52, 73, 94, 0.3);
+                  border-radius: 5px;
+                  margin: auto;
+                  margin-top: 50px;
+                  padding-top: 15px;
+                }
+
+            img {
+                  width: 120px;
+                  height: 120px;
+                  border-radius: 100px;
+                  margin-top: -70px;
+                  margin-bottom: 40px;
+                }
+
+        .form-control {
+                        background-color: black;
+                        color: white;
+                        height: 45px;
+                        width : 300px;
+                        padding-left: 40px;
+                        font-size: 28px;
+                      }
+
+        .form-group:: before {
+                              content: "\f007";
+                              position: absolute;
+                              font-family:"FontAwesome";
+                              font-size: 35px;
+                              color: #985986;
+                            }
+    </style>
+</head>
+<body>
+
+        <br><h1>Welcome to Elizabeth, Please Log In </h1><br>
+            <div class="container">
+              <div class="row">
+                  
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="https://images.unsplash.com/photo-1478034499230-f61b21d05167?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=11401cc55caf47ef49c10e499d60c1ff">
+                    
+                      <form>
+                        <!-- Form start-->
+                        <div class="form-group">
+                        <input type="email" class="form-control" id="Email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                         <input type="password" class="form-control" id="Password" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </form>   
+                        <!-- Form ends-->
+                    
+                </div>
+              </div>
+            </div>
+</body>        
+</html>        
